@@ -26,7 +26,6 @@ hr {
 /* 404 Styling */
 div.not-found {
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
     color: rgb(255, 0, 0);
-    font-size: 300%;
 }
