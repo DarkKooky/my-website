@@ -26,11 +26,18 @@ hr {
 /* 404 Styling */
 div.not-found {
     text-align: center;
-    font-size: 200%;
     color: rgb(200, 0, 0);
 
+    h1 {
+        font-size: 200px;
+    }
+
+    p {
+        font-size: 100px;
+    }
+
     img {
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
     }
 }
