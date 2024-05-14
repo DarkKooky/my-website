@@ -5,6 +5,9 @@
 
 body {
     font-family: "Fira Code", "Courier New", "Courier", "monospace";
-    background-color: black;
+
+    padding: 10px 10px 10px 10px;
+
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 255, 0);
 }
