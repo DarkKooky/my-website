@@ -23,7 +23,10 @@ hr {
     border-color: rgb(50, 150, 50);
 }
 
-h1.not-found {
+/* 404 Styling */
+div.not-found {
+    text-align: center;
+    font-size: 300%;
     color: rgb(255, 0, 0);
     font-size: 300%;
 }
