@@ -18,7 +18,7 @@ body {
 hr {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-color: rgb(50, 100, 50);
+    margin-left: -50px;
+    margin-right: -50px;
+    border-color: rgb(50, 150, 50);
 }
