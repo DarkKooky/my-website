@@ -23,11 +23,7 @@ hr {
     border-color: rgb(50, 150, 50);
 }
 
-#404 {
+h1.not-found {
     color: rgb(255, 0, 0);
-}
-
-h1#404,
-h3#404 {
-    font-size: 150%;
+    font-size: 300%;
 }
