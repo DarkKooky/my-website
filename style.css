@@ -18,11 +18,16 @@ body {
 hr {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: -250px;
-    margin-right: -250px;
+    margin-left: -200px;
+    margin-right: -200px;
     border-color: rgb(50, 150, 50);
 }
 
 #404 {
     color: rgb(255, 0, 0);
+}
+
+h1#404,
+h3#404 {
+    font-size: 150%;
 }
