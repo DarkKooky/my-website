@@ -26,13 +26,12 @@ hr {
 /* 404 Styling */
 .page-not-found {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: 300px;
+    grid-template-columns: 294px 500px;
+    grid-template-rows: 294px;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
    
-    color: rgb(150, 0, 0);
-    font-size: 400%;
+    align-self: center;
 }
 
 #gif {
@@ -42,4 +41,6 @@ hr {
 #error {
     text-align: center;
     grid-area: 1 / 2 / 2 / 3;
+    color: rgb(150, 0, 0);
+    font-size: 400%;
 }
