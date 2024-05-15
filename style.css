@@ -30,9 +30,9 @@ hr {
    grid-template-rows: 1fr 1fr;
    grid-template-columns: 1fr 1fr;
    
-   grid-template-areas: 
-	'gif error-code'
-	'gif error-text';
+   grid-template-areas:
+    'gif error-code'
+    'gif error-text';
    
    gap: 0px;
    height: 100%;
@@ -41,12 +41,15 @@ hr {
   
 #gif {
    grid-area: gif;
+   text-align: center;
 }
 
 #error-code {
    grid-area: error-code;
+   text-align: center;
 }
 
 #error-text {
    grid-area: error-text;
+   text-align: center;
 }
