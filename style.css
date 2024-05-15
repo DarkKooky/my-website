@@ -49,11 +49,11 @@ hr {
 #error-code {
    grid-area: error-code;
    text-align: center;
-   vertical-align: middle;
+   vertical-align: text-bottom;
 }
 
 #error-text {
    grid-area: error-text;
    text-align: center;
-   vertical-align: middle;
+   vertical-align: text-top;
 }
