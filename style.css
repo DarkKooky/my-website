@@ -40,6 +40,7 @@ hr {
 
 #error {
     text-align: center;
+    vertical-align: middle;
     grid-area: 1 / 2 / 2 / 3;
     color: rgb(150, 0, 0);
     font-size: 400%;
