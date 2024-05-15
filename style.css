@@ -28,7 +28,7 @@ hr {
     display: grid;
     grid-template-columns: 294px 500px;
     grid-template-rows: 294px;
-    grid-column-gap: 50px;
+    grid-column-gap: 30px;
     grid-row-gap: 0px;
    
     align-self: center;
