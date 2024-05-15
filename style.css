@@ -38,22 +38,27 @@ hr {
 
    color: rgb(150, 0, 0);
    font-size: 300%;
+   text-align: center;
 }
   
 #gif {
    grid-area: gif;
-   text-align: center;
    vertical-align: middle;
 }
 
 #error-code {
    grid-area: error-code;
    text-align: center;
-   vertical-align: text-bottom;
+
+   p {
+    vertical-align: text-bottom;
+   }
 }
 
 #error-text {
    grid-area: error-text;
    text-align: center;
-   vertical-align: text-top;
+   p {
+    vertical-align: text-top;
+   }
 }
