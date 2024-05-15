@@ -58,6 +58,7 @@ hr {
 #error-text {
    grid-area: error-text;
    text-align: center;
+   
    p {
     vertical-align: text-top;
    }
