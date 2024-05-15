@@ -33,11 +33,11 @@ hr {
     'gif error-code'
     'gif error-text';
    
-   gap: 10px;
+   gap: 50px;
    height: 100%;
 
    color: rgb(150, 0, 0);
-   font-size: 100%;
+   font-size: 300%;
 }
   
 #gif {
