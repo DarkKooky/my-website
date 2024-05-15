@@ -24,17 +24,31 @@ hr {
 }
 
 /* 404 Styling */
-div.not-found {
-    text-align: center;
+.page-not-found {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: center;
+    grid-template-areas:
+        "Image Error-Code"
+        "Image Error-Text";
+    justify-items: center;
+
     color: rgb(200, 0, 0);
+}
+  
+.gif {
+    justify-self: center;
+    align-self: center;
+    grid-area: gif;
+}
 
-    p {
-        font-size: 120x;
-    }
+.error-code {
+    grid-area: Error-Code;
+}
 
-    img {
-        vertical-align: middle;
-        width: 150px;
-        height: 150px;
-    }
+.error-text {
+    grid-area: Error-Text;
 }
