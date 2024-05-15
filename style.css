@@ -28,12 +28,12 @@ hr {
    display: grid; 
 
    grid-template-rows: fit-content(150px) fit-content(150px);
-   grid-template-columns: fit-content(300px) fit-content(150px);
+   grid-template-columns: fit-content(300px) fit-content(300px);
    grid-template-areas:
     'gif error-code'
     'gif error-text';
    
-   gap: 0px;
+   gap: 10px;
    height: 100%;
 
    color: rgb(150, 0, 0);
