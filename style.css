@@ -28,7 +28,7 @@ hr {
    display: grid; 
 
    grid-template-rows: fit-content(150px) fit-content(150px);
-   grid-template-columns: fit-content(300px) 1fr;
+   grid-template-columns: fit-content(300px) fit-content(150px);
    grid-template-areas:
     'gif error-code'
     'gif error-text';
