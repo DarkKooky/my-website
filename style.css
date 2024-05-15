@@ -33,6 +33,7 @@ div.not-found {
     }
 
     img {
+        vertical-align: middle;
         width: 150px;
         height: 150px;
     }
