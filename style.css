@@ -25,30 +25,28 @@ hr {
 
 /* 404 Styling */
 .page-not-found {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    justify-items: center;
-    grid-template-areas:
-        "gif error-code"
-        "gif error-text";
-    justify-items: center;
+   display: grid; 
 
-    color: rgb(200, 0, 0);
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   
+   grid-template-areas: 
+	'gif error-code'
+	'gif error-text';
+   
+   gap: 0px;
+   height: 100%;
+   
 }
   
-.gif {
-    justify-self: center;
-    align-self: center;
-    grid-area: gif;
+#gif {
+   grid-area: gif;
 }
 
-.error-code {
-    grid-area: error-code;
+#error-code {
+   grid-area: error-code;
 }
 
-.error-text {
-    grid-area: error-text;
+#error-text {
+   grid-area: error-text;
 }
