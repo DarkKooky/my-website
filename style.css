@@ -25,44 +25,20 @@ hr {
 
 /* 404 Styling */
 .page-not-found {
-   display: grid; 
-
-   grid-template-rows: fit-content(150px) fit-content(150px);
-   grid-template-columns: fit-content(300px) fit-content(300px);
-   grid-template-areas:
-    'gif error-code'
-    'gif error-text';
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: 300px;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
    
-   gap: 50px;
-   height: 100%;
-
-   color: rgb(150, 0, 0);
-   font-size: 300%;
-   text-align: center;
+    color: rgb(150, 0, 0);
+    font-size: 300%;
 }
-  
+
 #gif {
-   grid-area: gif;
-
-   img {
-    vertical-align: middle;
-   }
+    grid-area: 1 / 1 / 2 / 2;
 }
 
-#error-code {
-   grid-area: error-code;
-   text-align: center;
-
-   p {
-    vertical-align: text-bottom;
-   }
-}
-
-#error-text {
-   grid-area: error-text;
-   text-align: center;
-
-   p {
-    vertical-align: text-top;
-   }
+#error {
+    grid-area: 1 / 2 / 2 / 3;
 }
