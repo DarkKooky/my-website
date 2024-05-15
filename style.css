@@ -28,10 +28,6 @@ div.not-found {
     text-align: center;
     color: rgb(200, 0, 0);
 
-    h1 {
-        font-size: 200px;
-    }
-
     p {
         font-size: 100px;
     }
