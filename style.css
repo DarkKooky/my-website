@@ -32,8 +32,8 @@ hr {
     grid-auto-flow: row;
     justify-items: center;
     grid-template-areas:
-        "Image Error-Code"
-        "Image Error-Text";
+        "gif error-code"
+        "gif error-text";
     justify-items: center;
 
     color: rgb(200, 0, 0);
@@ -46,9 +46,9 @@ hr {
 }
 
 .error-code {
-    grid-area: Error-Code;
+    grid-area: error-code;
 }
 
 .error-text {
-    grid-area: Error-Text;
+    grid-area: error-text;
 }
