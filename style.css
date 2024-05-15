@@ -27,29 +27,33 @@ hr {
 .page-not-found {
    display: grid; 
 
-   grid-template-rows: 1fr 1fr;
-   grid-template-columns: 1fr 1fr;
-   
+   grid-template-rows: fit-content(150px) fit-content(150px);
+   grid-template-columns: fit-content(300px) 1fr;
    grid-template-areas:
     'gif error-code'
     'gif error-text';
    
    gap: 0px;
    height: 100%;
-   
+
+   color: rgb(150, 0, 0);
+   font-size: 100%;
 }
   
 #gif {
    grid-area: gif;
    text-align: center;
+   vertical-align: middle;
 }
 
 #error-code {
    grid-area: error-code;
    text-align: center;
+   vertical-align: middle;
 }
 
 #error-text {
    grid-area: error-text;
    text-align: center;
+   vertical-align: middle;
 }
